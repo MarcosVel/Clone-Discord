@@ -17,7 +17,7 @@ export const Messages = styled.div`
    display: flex;
    flex-direction: column;
 
-   max-height: calc(100vh - 46px - 68px);
+   max-height: calc(100vh - 46px - 69px);
    overflow-y: scroll;
 
    ::-webkit-scrollbar {
@@ -26,11 +26,13 @@ export const Messages = styled.div`
 
    ::-webkit-scrollbar-thumb {
       background-color: var(--tertiary);
-      border-radius: 4px;
+      border-radius: 8px;
    }
 
    ::-webkit-scrollbar-track {
-      background-color: var(--secondary);
+      background-color: var(--chat-input);
+      border-radius: 8px;
+      margin: 5px 0;
    }
 `;
 
